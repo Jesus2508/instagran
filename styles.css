@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    padding: 10px;
+    color: black;   
+}
+.caja2{
+    background-color:brown;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    border-color: cornsilk;
+}
+.caja3{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: black;
+}
+.img{
+    height: auto;
+    max-width: 100%;  
+}
+.p{
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(7, 7, 7);
+    color:cyan
+}
