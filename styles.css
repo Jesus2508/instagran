@@ -6,24 +6,31 @@ h1{
 .caja2{
     background-color:brown;
     padding: 20px;
-    text-align: center;
     color: black;
     margin-bottom: 20px;
-    border-color: cornsilk;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
 }
 .caja3{
-    display: flex;
-    justify-content: space-between;
     padding: 10px;
-    color: black;
+    color: white;
+    background-color: black;
+    width: 50%;
+    margin: 10px auto;
 }
-.img{
+img{
     height: auto;
-    max-width: 100%;  
+    width: 100%;  
 }
 .p{
     padding: 20px;
     text-align: center;
     background-color:rgb(7, 7, 7);
     color:cyan
+}
+.post-header{
+  display: flex;
+  justify-content: space-between;
 }
